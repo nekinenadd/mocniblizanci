@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mocni Blizanci</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+
+  <link rel="preconnsect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+
+  <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+
+
+</head>
+
+<body id="top">
+  
+  <!---->
+
+  <!-- 
+    - #HEADER
+
+
+
+    <header class="header" data-header>
+      <div class="container">
+        <a>
+          <img src='./assets/images/fight-house-logo.png' width="150px" height="130px" alt="tite" class="hero-banner">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link active" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>O nama</a>
+            </li>
+
+            <li>
+              <a href="#termini" class="navbar-link" data-nav-link>Termini</a>
+            </li>
+  
+            <li>
+              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>Kontakt</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <a href="#" class="btn btn-primary">Pridruži nam se</a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+
+      </div>
+    </header>
+
+    <article>
+
+      <header class="header" data-header>
+        <div class="container">
+          <a>
+            <img src='./assets/images/' width="150px" height="130px" alt="tite" class="hero-banner">
+          </a>
+  
+          <nav class="navbar" data-navbar>
+  
+            <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+              <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+            </button>
+  
+            <ul class="navbar-list">
+  
+              <li>
+                <a href="#home" class="navbar-link active" data-nav-link>Home</a>
+              </li>
+  
+              <li>
+                <a href="#about" class="navbar-link" data-nav-link>O nama</a>
+              </li>
+  
+              <li>
+                <a href="#termini" class="navbar-link" data-nav-link>Termini</a>
+              </li>
+    
+              <li>
+                <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+              </li>
+    
+              <li>
+                <a href="#" class="navbar-link" data-nav-link>Kontakt</a>
+              </li>
+  
+            </ul>
+  
+          </nav>
+  
+          <a href="#" class="btn btn-primary">Pridruži nam se</a>
+  
+          <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+  
+        </div>
+      </header>
+  
+        - #HERO
+      -->
+      
+      <section class="section hero " id="home" aria-label="hero" data-section">
+        <a href="#termini" class="btn btn-primary">ZAKAZI SASTANAK</a>
+        <h1 class="h1 hero-title"> Mi smo tu da Vam resimo probleme</h1>
+        
+        
+        <div class="video-container">
+          <video autoplay muted loop playsinline>
+            <source src="./assets/images/mixkit-black-magic-ritual-in-a-dark-room-32108-hd-ready.mp4" type="video/mp4" />
+        </video>
+        <div class="video-overlay"></div>
+    
+        </div>
+        <!--
+        <p class="hero-subtitle">
+          <strong class="strong">Fight</strong>House
+        </p>
+        -->
+      </section>
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner has-after">
+            <picture>
+            <img src="./assets/images/prvaslika.jpg" width="660" height="648"  loading="lazy" decoding="async" alt="about banner"
+              class="w-100">
+            </picture>
+           
+            
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">Mocni Blizanci</h2>
+
+            <p class="section-text">
+              MOCNI BLIZANCI su jedinstveno bice u dva tela - duhovni tandem koji je jos u detinjstvu otkrio svoje izvanredne moci.
+              Njihova sposobnost da vide i razumeju svet iz vise dimenzija, kao i da uklanjaju negativne energije i magiju.
+            </p>
+<!--
+            <div class="wrapper">
+
+              <div class="about-coach">
+
+                <figure class="coach-avatar">
+                  <img src="./assets/images/sonsla.png.JPG" width="65" loading="lazy" height="65"  alt="Trainer">
+                </figure>
+
+                <div>
+                  <h3 class="h3 coach-name">BLIZANAC 1</h3>
+
+                  <p class="coach-title">Trener boksa</p>
+                  
+                </div>
+
+              </div>
+
+              <a href="tel:0603389401" class="btn btn-primary">Kontakt</a>
+
+            </div>
+
+            <div class="wrapper">
+
+              <div class="about-coach">
+
+                <figure class="coach-avatar">
+                  <img src="./assets/images/srki.png" width="65" height="65"  alt="Trainer">
+                </figure>
+
+                <div>
+                  <h3 class="h3 coach-name">BLIZANAC 2</h3>
+
+                  <p class="coach-title">Trener kik-boksa</p>
+
+                </div>
+
+              </div>
+
+              <a href="tel:0603550001" class="btn btn-primary">Kontakt</a>
+
+            </div>
+
+          </div>
+-->
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #VIDEO
+      -->
+<!--
+      <section class="section video" aria-label="video">
+        <div class="container">
+
+          <div class="video-card has- has-bg-image"
+            style="background-image: url('.before/assets/images/video-banner.jpg')">
+
+            <h2 class="h2 card-title">Explore Fitness Life</h2>
+
+            <button class="play-btn" aria-label="play video">
+              <ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
+            </button>
+
+            <a href="#" class="btn-link has-before">Watch More</a>
+
+          </div>
+
+        </div>
+      </section>
+
+-->
+
+
+
+      <!-- 
+        - #CLASS
+      -->
+
+      <section class="section class bg-dark has-bg-image" id="class" aria-label="class"
+        style="background-image: url('./assets/images/classes-bg.png')">
+        <div class="container" id="termini">
+
+          <p class="section-subtitle" >RESAVAMO VASE PROBLEME </p>
+
+          <h2 class="h2 section-title text-center">POZOVITE NAS</h2>
+
+          <ul class="class-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/drugaslika.jpg" width="416" height="240"  decoding="async"  alt="Recreative Box"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/spellbook (1).png" width="3" height="3" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">SKIDANJE CRNE MAGIJE</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Da li osećate umor bez razloga, nesanicu, stalne svađe u porodici, probleme na poslu ili u ljubavi?
+                    Možda su to znakovi negativne energije ili delovanja crne magije.
+                    <a></a>
+                    <span></span>
+                  </p>
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+            
+
+
+            <!--
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/kardio-box.png.webp" width="416" height="240"  decoding="async" alt="Cardio Box"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-2.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Cardiobox</a>
+                    </h3>
+                    <img src='./assets/images/fitpass-logo.png' width="70" height="50" alt="hero banner" class="w-4">
+
+                  </div>
+
+                  <p class="card-text">
+                    Kardio boks je energičan trening koji kombinuje bokserske tehnike i intenzivne kardio vežbe. 
+                    Idealan je za sagorevanje kalorija, poboljšanje izdržljivosti i jačanje tela.
+                    <span></span>
+                    <b>Utorak - 19:00<span></span>Cetvrtak - 19:00<span></span> Petak - 18:00</b>
+                  </p>
+///////////////// 
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Full</p>
+
+                      <span class="progress-value">70%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+
+                  </div>
+/////////   
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/kardio-kikboks.png.webp" width="416" height="240"  decoding="async" alt="Cardio Kick-box"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-3.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Rekreativni kikboks</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Rekreativni kik-boks je dinamičan i zabavan način da poboljšate kondiciju, ojačate telo i izbacite negativnu energiju. 
+                    Treninzi kombinuju osnovne tehnike udaraca rukama i nogama sa vežbama snage i izdržljivosti, bez kontakta i sparinga.
+                    <a></a>
+                    <span></span>
+                    <b>Ponedeljak - 19:00 <span></span>Sreda - 19:00 <span></span>Petak - 19:00</b>
+                  </p>
+/////////// 
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Full</p>
+
+                      <span class="progress-value">90%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+
+                  </div>
+//////////
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/jutarnji.png.webp" width="416" height="240" decoding="async" alt="Morning Box"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    <img src="./assets/images/class-icon-4.png" width="52" height="52" aria-hidden="true" alt=""
+                      class="title-icon">
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Jutarnji boks</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Započnite dan energično uz jutarnji boks! Ovi treninzi su osmišljeni da razbude telo i um, poboljšaju kondiciju i pruže savršen početak dana.
+                    <a></a>
+                    <span></span>
+                    <b>Ponedeljak - 9:00<span></span> Sreda - 9:00 <span></span>Petak - 9:00</b>
+                  </p>
+///////// 
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Full</p>
+
+                      <span class="progress-value">60%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 60%"></div>
+                    </div>
+
+                  </div>
+//////// 
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+          <img src="./assets/images/finger-swipe-svgrepo-com.png" width="80px">
+        -->
+        </div>
+      </section>
+
+       <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner has-after">
+            <picture>
+            <img src="./assets/images/the-new-york-public-library-AUaPtC7Efzs-unsplash.jpg" width="660" height="648"  loading="lazy" decoding="async" alt="about banner"
+              class="w-100">
+            </picture>
+           
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">Molitve</h2>
+
+            <p class="section-text">
+              Kroz licne molitve za uspeh, koje izgradjuju s dubokom ljubavlju i jasnom namerom, Mocni blizanci donose
+              emocionalnu i duhovnu podrsku. Njihove molitve nisu univerzalne formule - one su pazljivo skrojene za
+              svaku osobu posebno!
+            </p>
+        </div>
+      </section>
+
+
+
+
+
+      <section class="section class bg-dark has-bg-image" id="class" aria-label="class"
+        style="background-image: url('./assets/images/classes-bg.png')">
+        <div class="container">
+
+         <!-- <p class="section-subtitle">CENE</p>-->
+
+          <!-- <h2 class="h2 section-title text-center">CENE</h2>-->
+
+          <ul class="class-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+<!---->
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+
+                    <h3 class="h2">
+                      <a href="#" class="card-title">KONSULTACIJE SU BESPLATNE</a>
+                    </h3>
+                  </div>
+<!--
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Full</p>
+
+                      <span class="progress-value">85%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+
+                  </div>
+-->
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+<!--
+  GALERIJA 
+
+-->
+      <section class="section class bg-dark has-bg-image" id="class" aria-label="class"
+        style="background-image: url('./assets/images/classes-bg.png')">
+        <div class="container" id="termini">
+<!--
+          <h2 class="h2 section-title text-center">Galerija</h2>
+          -->
+<!--
+          <ul class="class-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/galerija/galerija10.webp" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                    class="img-cover">
+                </figure>
+              </div>
+            </li>
+
+
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/galerija/galerija6.webp" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                    class="img-cover" class="lazyload">
+                </figure>
+              </div>
+            </li>
+
+
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/galerija/galerija3.webp" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                    class="img-cover">
+                </figure>
+              </div>
+            </li>
+
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/galerija/galerija2.webp" width="416" height="240" loading="lazy" decoding="async" alt="Weight Lifting"
+                    class="img-cover">
+                </figure>
+              </div>
+            </li>
+
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/galerija/galerija5.webp" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                    class="img-cover">
+                </figure>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/galerija/galerija9.webp" width="416" height="240" loading="lazy" decoding="async" alt="Weight Lifting"
+                    class="img-cover">
+                </figure>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/galerija/galerija7.webp" width="416" height="240" loading="lazy" decoding="async" alt="Weight Lifting"
+                    class="img-cover">
+                </figure>
+              </div>
+            </li>
+
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/galerija/galerija8.webp" width="416" height="240" loading="lazy" alt="Cardio & Strenght"
+                    class="img-cover">
+                </figure>
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/galerija/galerija9.webp" width="416" height="240" loading="lazy" decoding="async" alt="Power Yoga"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/galerija/galerija1.webp" width="416" height="240" loading="lazy" decoding="async" alt="The Fitness Pack"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </li>
+          </ul>
+-->
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="section footer-top bg-dark has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+
+
+          <div class="wrapper">
+
+            <!--
+            <img src="./assets/images/yellow-clock.png" width="34" height="34" loading="lazy" alt="Clock">
+            -->
+<!--
+            <ul class="footer-brand-list">
+
+              <li>
+                <p class="footer-brand-title">Ponedeljak - Petak</p>
+
+                <p>8:00 - 22:00</p>
+              </li>
+
+            </ul>
+
+          </div>
+-->
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Kontaktiraj nas</p>
+          </li>
+<!--
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+            </div>
+
+            <address class="address footer-link">
+              1300 Kaplara 3, 21000 Novi Sad 
+            </address>
+          </li>
+-->
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:0603550001" class="footer-link">0603550001</a>
+
+              <a href="tel:0603389401" class="footer-link">0603389401</a>
+            </div>
+          </li>
+<!--
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+            </div>
+          </li>
+-->
+        </ul>
+
+
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+        <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+          <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+        </a>
+
+        <a href="tel:+1234567890" class="call-button" title="Call Us">
+          📞
+        </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
