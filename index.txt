@@ -41,124 +41,27 @@ alt = calories
 
 #---------- ABOUT ----------#
 
-alt = about banner
-
-alt = fitness
-
-About Us
-
-Welcome To Our Fitness Gym
-
-Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat. Pellentesque porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.
-
-Integer placerat vitae metus posuere tincidunt. Nullam suscipit ante ac aliquet viverra vestibulum ante ipsum primis.
-
-alt = Trainer
-
-Denis Robinson
-Our Coach
-
-Explore More
 
 
 
 #---------- VIDEO ----------#
 
-Explore Fitness Life
 
-aria-label = play video
-<ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
-
-Watch More
 
 
 
 #---------- CLASS ----------#
 
-Our Classes
-
-Fitness Classes For Every Goal
-
-alt = Weight Lifting
-
-Weight Lifting
-
-Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.
-
-Class Full
-
-85%
-
-alt = Cardio & Strenght
-
-Cardio & Strenght
-
-70%
-
-alt = Power Yoga
-
-Power Yoga
-
-90%
-
-alt = The Fitness Pack
-
-The Fitness Pack
-
-60%
-
 
 
 #---------- BLOG ----------#
 
-Our News
 
-Latest Blog Feed
-
-alt = Going to the gym for the first time
-
-7 July 2022
-
-Going to the gym for the first time
-
-Praesent id ipsum pellentesque lectus dapibus condimentum curabitur eget risus quam. In hac habitasse platea dictumst.
-
-Read More
-
-alt = Parturient accumsan cacus pulvinar magna
-
-Parturient accumsan cacus pulvinar magna
-
-alt = Risus purus namien parturient accumsan cacus
-
-Risus purus namien parturient accumsan cacus
 
 
 
 #---------- FOOTER ----------#
 
-<ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
-Fitlife
-
-Etiam suscipit fringilla ullamcorper sed malesuada urna nec odio.
-
-alt = Clock
-
-Monday - Friday
-7:00Am - 10:00Pm
-
-Saturday - Sunday
-7:00Am - 2:00Pm
-
-Our Links
-
-Home
-About Us
-Classes
-Blog
-Contact Us
-
-Contact Us
 
 <ion-icon name="location" aria-hidden="true"></ion-icon>
 
