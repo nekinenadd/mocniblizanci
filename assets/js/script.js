@@ -24,7 +24,7 @@ function preloadImages(imageUrls) {
     img.src = url;
   });
 }
-
+/** 
 preloadImages([
   './assets/galerija/galerija1.webp',
   './assets/galerija/galerija2.webp',
@@ -37,7 +37,7 @@ preloadImages([
   './assets/galerija/galerija9.webp'
 ]);
 
-
+*/
 
 /**
  * navbar toggle
